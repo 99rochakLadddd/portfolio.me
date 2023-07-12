@@ -1,0 +1,101 @@
+*{
+    margin: 5px;
+    padding :0px;
+
+}
+.logo span{
+    font-size: 40px;
+}
+.main-nav{
+    
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 87%;
+    height: 70px;
+    margin: 30px;
+    text-transform: uppercase;
+    left: 30px;
+    border-radius: 30px;
+    border: 4px solid white;
+    position: relative;
+    box-shadow: 0 1px 10px rgba(10,0,0,0.3), 0 0 0px rgba(0,0,0,0.1) inset;
+
+}
+.logo  h2{
+    letter-spacing: -2px;
+    color:#023047 ;
+    font-family: "sans-serif ";
+    padding-left: 40px;
+    
+}
+.menu-link ul {
+    
+    list-style: none;
+    display: flex;
+    padding-right: 30px;
+    
+}
+.menu-link ul li a{
+    
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    font-size: 17px;
+    padding:16px 10px;
+
+}
+.menu-link ul li a:hover{
+    color:rgb(0, 191, 159);
+    background-color: black !important;
+    transition: 0.3sec;
+    border-radius: 2px;
+}
+.logo  :hover{
+    color:rgb(0, 191, 159);
+    cursor: pointer;
+}
+/* HOME */
+.main-page{
+border-radius: 20px;
+width: 500px;
+height:200px;
+font-family: sans-serif;
+padding-left: 0px;
+padding-top: 0px;
+text-align: center;
+top:70px;
+left: 599px;
+position: relative;
+letter-spacing: 0.0em;
+}
+.my-name {
+    color: #1C2833;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+    
+
+}
+.line-1 {
+    background-color:rgb(0, 191, 159);
+    height: 4px;
+    width: 130px;
+    border-radius: 6px;
+    margin-left: 618px;
+    margin-top:73px;
+    position: absolute;
+    z-index: 1;
+}
+.developer-posi{
+    text-align: left;
+    padding-left: 10px;
+    color:rgb(0, 191, 159);
+    
+}
+
+
+
